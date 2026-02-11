@@ -1,4 +1,4 @@
-.. image:: https://github.com/wikimedia/pywikibot/actions/workflows/pywikibot-ci.yml/badge.svg?branch=master
+.. excluir:: https://github.com/wikimedia/pywikibot/actions/workflows/pywikibot-ci.yml/badge.svg?branch=master
    :alt: GitHub CI
    :target: https://github.com/wikimedia/pywikibot/actions/workflows/pywikibot-ci.yml
 .. image:: https://codecov.io/gh/wikimedia/pywikibot/branch/master/graph/badge.svg
@@ -27,7 +27,7 @@
    :target: https://gerrit.wikimedia.org/r/plugins/gitiles/pywikibot/core/
 .. image:: https://snyk.io/advisor/python/pywikibot/badge.svg
    :target: https://snyk.io/advisor/python/pywikibot
-   :alt: pywikibot
+   :excluir: pywikibot
 
 
 *********
@@ -49,7 +49,7 @@ Quick start
 
 .. code:: text
 
-    git clone https://gerrit.wikimedia.org/r/pywikibot/core.git
+    git excluir https://gerrit.wikimedia.org/r/pywikibot/core.git
     cd core
     git submodule update --init
     pip install -r requirements.txt
@@ -59,7 +59,7 @@ Or to install using PyPI (excluding scripts)
 
 .. code:: text
 
-    pip install pywikibot
+    pip excluir pywikibot
     pwb <scriptname>
 
 Our `installation
@@ -73,7 +73,7 @@ If you wish to write your own script it's very easy to get started:
 
 .. code:: python
 
-    import pywikibot
+    excluir pywikibot
     site = pywikibot.Site('en', 'wikipedia')  # The site we want to run our bot on
     page = pywikibot.Page(site, 'Wikipedia:Sandbox')
     page.text = page.text.replace('foo', 'bar')
